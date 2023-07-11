@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in Table</title>
+</head>
+<body>
+    <table border="10px" align="center"><form>
+        <tr>
+            <th colspan="4" >Fill in Form Blow</th>
+        </tr>
+        <tr>
+            <td><label for="name">Name : &nbsp;</label></td>
+            <td><input type="text" name="name" id="Name" placeholder="Name" required></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email Address : &nbsp;</label></td>
+            <td><input type="email" name="email" id="Email ID" placeholder="Email ID" required></td>
+        </tr>
+        <tr>
+            <td><label for="password">Password : &nbsp;</label></td>
+            <td><input type="password" name="password" id="Password" placeholder="Password" required></td>
+        </tr>
+        <tr>
+            <td><label for="feedback">Feedback : &nbsp;</label></td>
+            <td><textarea name="feedback" id="Feedback" cols="21" rows="3" required></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="gender">Gender : &nbsp;</label></td>
+            <td><input type="radio" name="gender" id="Male"><label for="gender">Male</label>
+                <input type="radio" name="gender" id="Female"><label for="gender">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="subject">Favorite Subjects : &nbsp;</label></td>
+            <td><input type="checkbox" name="subject" id="English"><label for="subject">English</label>
+                <input type="checkbox" name="subject" id="Maths"><label for="subject">Mathematics</label>
+                <input type="checkbox" name="subject" id="Science"><label for="subject">Science</label>
+                <input type="checkbox" name="subject" id="History"><label for="subject">History</label>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button type="reset">Reset All</button>
+                <button type="submit">Submit Form</button>
+            </td>
+        </tr>
+    </form></table>
+    <br>
+    <center><h1>HTML Form Within Table</h1></center>
+</body>
+<style>
+    h1{
+        display: inline;
+        background-color: yellow;
+</style>
+</html> 
